@@ -30,6 +30,7 @@
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
 %%
+
 \NeedsTeXFormat{LaTeX2e}[1996/06/01]
 \ProvidesClass{nle}[2004/05/20 v1.0 Natural Language Engineering (NLE) document class]
 %

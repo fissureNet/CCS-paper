@@ -1,9 +1,11 @@
 \documentclass{cnle}
 
 \usepackage[UTF8]{ctex}
+\usepackage{tikz}
+\usepackage{pgf-pie}
 
 \title[Version Control, Blockchain, and CCS]
-      {版本控制、区块链，以及 CCS}
+      {融合版本控制和区块链：CCS}
 \author[KnowsCount]
        {KnowsCount Chen\\
         knowscount@gmail.com\\
@@ -30,48 +32,16 @@
 
 CCS 将为每一个变更、更新贴上大量的附加上下文信息的标签，从而让公众知道修改部分、修改时间、修改用户，等等。这样可以帮助用户对内容演进过程中的事件产生有价值的见解。大多数软件开发组织都采用了某种其他形式的 CCS，比如 git、SVN 等。因此，CCS 对很多软件项目都具有广泛的适用性。
 
-\subsection{介绍 VCS | Introduction to VCS}
+\section{再度使用数据 | Reusing Data}
 
-在介绍 CCS 之前，先要介绍其父 VCS（Version Control System，版本控制系统）。
+CCS 的一大特色是对数据的再度使用，以免造成任何意义上的浪费。根据 {\em Analysis of Ethereum Smart Contracts - A Security Perspective\/}，字节码数据集、Solidity 数据集中的重复内容分别高达 94.6\% 以及 95.3\%。
 
-\LaTeX\ provides a consistent and comprehensive document preparation
-interface. There are simple-to-use commands for generating a table of
-contents, lists of figures and/or tables, and indexes. \LaTeX\ can
-automatically number list entries, equations, figures, tables, and
-footnotes, as well as parts, chapters, sections and subsections.
-Using this numbering system, bibliographic citations, page references
-and cross references to any other numbered entity (\eg chapter,
-section, equation, figure, list entry) are quite straightforward.
+\begin{tikzpicture} % Tikz environment
+  \centering
+  \pie
+  {5.4/Unique, 94.6/Duplicate}
+\end{tikzpicture}
 
-\subsection{The NLE Document Style}
-
-The use of document styles allows a simple change of style (or style option)
-to transform the appearance of your document. The CUP NLE style file preserves
-the standard \LaTeX\ interface such that any document which can be produced
-using the standard \LaTeX\ ARTICLE style can also be produced with the
-NLE style. However, the measure (or width of text) is slightly different
-from that for ARTICLE, therefore line breaks will change and it is possible
-that equations may need re-setting.
-
-\section{Using the NLE style}
-
-First, copy the file \verb"NLE.sty" into the correct subdirectory on your
-system. The NLE document style is implemented as a complete document style,
-{\em not\/} as a document style option. In order to use the NLE style,
-replace \verb"article" by \verb"nle" in the \verb"\documentstyle" command
-at the beginning of your document:
-%
-\begin{verbatim}
-  \documentstyle{article}
-\end{verbatim}
-%
-is replaced by
-%
-\begin{verbatim}
-  \documentstyle{nle}
-\end{verbatim}
-%
-None of the standard document style options should be used.
 
 \section{Additional facilities}
 
