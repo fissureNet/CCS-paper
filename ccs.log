@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.30)  31 DEC 2020 21:36
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.30)  1 JAN 2021 15:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/admin/projects/paper/foo
-(/Users/admin/projects/paper/foo.tex
+**/Users/admin/projects/paper/ccs
+(/Users/admin/projects/paper/ccs.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (./cnle.cls
 
@@ -454,8 +454,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \c@pgfpie@explodeLength=\count294
 \c@pgfpie@colorLength=\count295
 \c@pgfpie@sliceLength=\count296
-) (./foo.aux)
-\openout1 = `foo.aux'.
+) (./ccs.aux)
+\openout1 = `ccs.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -624,14 +624,14 @@ Overfull \hbox (5.18916pt too wide) in paragraph at lines 351--351
 [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9] [10] (./foo.aux) ) 
+ [9] [10] (./ccs.aux) ) 
 Here is how much of TeX's memory you used:
  17626 strings out of 479418
  429766 string characters out of 5884584
- 681060 words of memory out of 5000000
+ 681057 words of memory out of 5000000
  34816 multiletter control sequences out of 15000+600000
  537319 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,15n,77p,437b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on foo.pdf (10 pages).
+Output written on ccs.pdf (10 pages).
