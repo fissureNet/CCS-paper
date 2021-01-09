@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.30)  1 JAN 2021 15:38
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.12.30)  9 JAN 2021 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/admin/projects/paper/ccs
-(/Users/admin/projects/paper/ccs.tex
+**/Users/admin/fissure/paper/ccs
+(/Users/admin/fissure/paper/ccs.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (./cnle.cls
 
@@ -559,13 +559,6 @@ Underfull \vbox (badness 7888) has occurred while \output is active []
  [1
 
 ]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.53937> on input line 48.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 48.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 48.
-
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -593,45 +586,51 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-[2] [3]
+[2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.52812> on input line 127.
- [4] [5]
-Underfull \hbox (badness 2376) in paragraph at lines 255--258
+(Font)              <10.53937> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.52812> on input line 119.
+ [3] [4]
+Underfull \vbox (badness 4108) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 2376) in paragraph at lines 247--250
 []\TU/lmr/m/n/10.53937 Tables are centred, and span the full width of the page; that
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 255--258
+Underfull \hbox (badness 2846) in paragraph at lines 247--250
 \TU/lmr/m/n/10.53937 is, they are similar to the tables that would be produced by
  []
 
 [6] [7]
-Overfull \hbox (10.72232pt too wide) in paragraph at lines 351--351
+Overfull \hbox (10.72232pt too wide) in paragraph at lines 343--343
 []     \TU/lmtt/m/n/10.53937 Akmajian, A. and Lehrer, A. (1976) NP-like quantifiers and the[] 
  []
 
 
-Overfull \hbox (10.72232pt too wide) in paragraph at lines 351--351
+Overfull \hbox (10.72232pt too wide) in paragraph at lines 343--343
 []     \TU/lmtt/m/n/10.53937 Huddleston, Rodney. (1984) {\it Introduction to the Grammar of[] 
  []
 
 
-Overfull \hbox (5.18916pt too wide) in paragraph at lines 351--351
+Overfull \hbox (5.18916pt too wide) in paragraph at lines 343--343
 []     \TU/lmtt/m/n/10.53937 Scientific Symposium}, pp.~118--45. Lecture Notes in Computer[] 
  []
 
-[8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9] [10] (./ccs.aux) ) 
+[8] [9] [10] (./ccs.aux) ) 
 Here is how much of TeX's memory you used:
- 17626 strings out of 479418
- 429766 string characters out of 5884584
- 681057 words of memory out of 5000000
- 34816 multiletter control sequences out of 15000+600000
+ 17637 strings out of 479418
+ 430520 string characters out of 5884584
+ 687057 words of memory out of 5000000
+ 34827 multiletter control sequences out of 15000+600000
  537319 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,15n,77p,437b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,77p,436b,872s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ccs.pdf (10 pages).
